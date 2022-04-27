@@ -48,6 +48,7 @@ while game_should_continue:
 	is_correct = check_answer(guess, a_followers_count, b_followers_count)
 
 	#clear the screen between rows
+	print(logo)
 	clear()
 	
 	#score keeping
